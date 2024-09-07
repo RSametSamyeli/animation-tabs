@@ -1,0 +1,36 @@
+.feature-navigation {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    background-color: $color-white;
+    border-top: 1px solid $color-light-gray;
+    box-shadow: 0 -2px 10px rgba($color-dark, 0.1);
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+  
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    
+  &{
+    scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+    @include responsive(sm) {
+      justify-content: flex-start;
+      padding: 0.5rem;
+    }
+  
+    @include responsive(md) {
+      justify-content: center;
+    }
+  
+    @include responsive(lg) {
+      position: static;
+      box-shadow: none;
+      border-top: none;
+    }
+  }
