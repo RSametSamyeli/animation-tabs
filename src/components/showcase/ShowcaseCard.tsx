@@ -2,8 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ShowcaseCardProps } from '../types/showcaseCardModels';
 import NavigationButton from '../navigation/NavigationButton';
-import ShowcaseCardHeader from './ShowCaseCardHeader';
-import ShowcaseCardImage from './ShowCaseCardImage';
+import ShowcaseCardHeader from './ShowcaseCardHeader';
+import ShowcaseCardImage from './ShowcaseCardImage';
 
 export const ANIMATION_DURATION = 0.5;
 

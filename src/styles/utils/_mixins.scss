@@ -1,26 +1,16 @@
-@mixin flex-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  @mixin text-primary {
-    font-family: $font-primary;
-    color: $color-text-primary;
-  }
-  
-  @mixin bg-action {
-    background-color: $color-action;
-  }
-
-  @mixin flex-column {
-    display: flex;
-    flex-direction: column;
-  }
-  
   @mixin responsive($breakpoint) {
+    @if $breakpoint == sm {
+      @media (min-width: $breakpoint-sm) {
+        @content;
+      }
+    }
     @if $breakpoint == lg {
       @media (min-width: $breakpoint-lg) {
+        @content;
+      }
+    }
+    @if $breakpoint == md {
+      @media (min-width: $breakpoint-md) {
         @content;
       }
     }

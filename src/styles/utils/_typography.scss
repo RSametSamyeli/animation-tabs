@@ -22,8 +22,57 @@
     font-style: normal;
   }
 
-  p,h1,h2,h3,h4,h5,h6 {
+p,h1,h2,h3,h4,h5,h6,a,span {
     font-family: $font-family-base;
-    font-weight: $font-weight-normal;
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: $font-weight-xbold;
+    color: $color-dark;
+}
+
+h2{
+    font-size: $font-size-base;
+    font-weight: $font-weight-bolder;
+    line-height: 1.1931rem;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    color: $color-aqua;
+}
+
+p{
+    font-size: .875rem;
+    line-height: $line-height-base;
     color: $color-text-primary;
+    font-weight: $font-weight-normal;
+}
+
+a{
+    font-size: .9256rem;
+    font-weight: $font-weight-normal;
+    line-height: 1.1051rem;
+    color: $color-dark;
+    text-decoration: none;
+}
+
+span{
+    font-size: 1.25rem;
+    font-weight: $font-weight-bold;
+    line-height: $line-height-base;
+    color: $color-black;
+}
+
+@include responsive(md) {
+    p{
+        font-size: 1.25rem;
+        line-height: 2rem;
+        letter-spacing: .05rem;
+    }
+
+    a{
+        font-size: 1.25rem;
+        line-height: 1.4919rem;
+    }
 }
