@@ -1,22 +1,23 @@
 # Animation Tabs // FE Assigment
 
-Bu projede React ve Framer Motion kullanarak animasyonlu bir tab sistemi geliştirdim.
-Genel base olarak gönderilen repo'dan ziyade CSS teknolojisini nasıl kullandığımı göstermek amaçlı SASS ile Pure-CSS kullanımını tercih ettim. Dilenirse Tailwind kullanımını da deneyebilirim. 
+In this project, I developed an animated tab system using React and Framer Motion. Instead of relying solely on the provided repository as a base, I opted to showcase how I utilize CSS technology by using SASS with a Pure-CSS approach. If desired, I can also experiment with Tailwind.
 
-Pixel-Perfect olarak gönderilen figma taslağında istediğim gibi aynı sonucu elde etmek için SASS kullanarak kendi grid ve typography sistemi geliştirdim.
+To achieve the pixel-perfect result matching the provided Figma design, I created my own grid and typography system using SASS.
 
-Modüler bir yapıda componentleri tekrar tekrar kullanıp istediğim gibi custom olarak stillendirilebilir.
+This project is best viewed at 1440px on desktop and 375px on mobile.
+
+In a modular structure, components can be reused and customized to be styled exactly as I wish.
 
 
-## Ekran Görüntüleri
+## Screenshots
 
-### Desktop Görünümü
-![Desktop Görünümü](./1.png)
+### Desktop View
+![Desktop View](./1.png)
 
-### Mobil Görünümü
-![Mobil Görünümü](./2.png)
+### Mobile View
+![Mobile View](./2.png)
 
-## Kurulum
+## Setup
 
 ```bash
 npm install
