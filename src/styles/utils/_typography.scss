@@ -1,23 +1,23 @@
 @font-face {
     font-family: 'SF Pro Display';
-    src: url('/fonts/SF-Pro-Display-Regular.woff2') format('woff2'),
-         url('/fonts/SF-Pro-Display-Regular.woff') format('woff');
+    src: url('/assets/fonts/sf-pro-display-regular.woff2') format('woff2'),
+         url('/assets/fonts/sf-pro-display-regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'SF Pro Display';
-    src: url('/fonts/SF-Pro-Display-Bold.woff2') format('woff2'),
-         url('/fonts/SF-Pro-Display-Bold.woff') format('woff');
+    src: url('/assets/fonts/sf-pro-display-semibold.woff2') format('woff2'),
+         url('/assets/fonts/sf-pro-display-semibold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'SF Pro Display';
-    src: url('/fonts/SF-Pro-Display-ExtraBold.woff2') format('woff2'),
-         url('/fonts/SF-Pro-Display-ExtraBold.woff') format('woff');
+    src: url('/assets/fonts/sf-pro-display-bold.woff2') format('woff2'),
+         url('/assets/fonts/sf-pro-display-bold.woff') format('woff');
     font-weight: 800;
     font-style: normal;
   }

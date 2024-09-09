@@ -46,38 +46,45 @@
 
 
 @include responsive(md) {
-  .showcase-card.active {
-    grid-template-columns: 1fr 1fr;
-  }
 
-  .showcase-card-content {
-    order: 2;
-    text-align: right;
-    padding-right: 8.0625rem;
-  }
+  .showcase-card {
+    &.active {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    &-content {
+      order: 2;
+      text-align: right;
+      padding-right: 8.0625rem;
+    }
+  
+    &-action-title {
+      margin-top: 3.25rem;
+      margin-bottom: 1rem;
+    }
+  
+    &-title {
+      margin-bottom: 1.25rem;
+    }
+  
+    &-description {
+      margin-bottom: 2rem;
+      letter-spacing: 0.02rem;
+    }
+  
+    &-picture {
+      height: 35rem;
+      width: 100%;
+      max-width: 38.125rem;
+    }
+  
+    &-img {
+      order: 1;
+      justify-self: start;
+    }
 
-  .showcase-card-action-title {
-    margin-top: 3.25rem;
-    margin-bottom: 1rem;
-  }
-
-  .showcase-card-title {
-    margin-bottom: 1.25rem;
-  }
-
-  .showcase-card-description {
-    margin-bottom: 2rem;
-    letter-spacing: 0.02rem;
-  }
-
-  .showcase-card-picture {
-    height: 35rem;
-    width: 100%;
-    max-width: 38.125rem;
-  }
-
-  .showcase-card-img {
-    order: 1;
-    justify-self: start;
-  }
+    &-image-wrapper {
+      padding-top: 8.1875rem;
+    }
+  }  
 }

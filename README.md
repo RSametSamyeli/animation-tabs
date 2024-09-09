@@ -1,35 +1,24 @@
-# HubX Frontend Assignment
+# Animation Tabs // FE Assigment
 
-Please implement the given design with responsive, mobile-first approach and cross-browser support and try to follow it as closely as possible. The functionality described in the Figma file needs to be implemented for this assignment to be completed successfully. Make sure to format and lint your code before submitting it.
+Bu projede React ve Framer Motion kullanarak animasyonlu bir tab sistemi geliştirdim.
+Genel base olarak gönderilen repo'dan ziyade CSS teknolojisini nasıl kullandığımı göstermek amaçlı SASS ile Pure-CSS kullanımını tercih ettim. Dilenirse Tailwind kullanımını da deneyebilirim. 
 
-## Design
+Pixel-Perfect olarak gönderilen figma taslağında istediğim gibi aynı sonucu elde etmek için SASS kullanarak kendi grid ve typography sistemi geliştirdim.
 
-Figma design URL:
+Modüler bir yapıda componentleri tekrar tekrar kullanıp istediğim gibi custom olarak stillendirilebilir.
 
-```
-https://www.figma.com/file/fqq3IGqxAiIUEItAWHZ54W/Frontend-Case-(HubX)?type=design&node-id=896%3A263&mode=design&t=7TvYeaXudwa3TGy5-1
-```
 
-Example implementation videos:
+## Ekran Görüntüleri
 
-```
-https://drive.google.com/drive/folders/1kkicvHG7UMc-MY9npv_fy4gW1cZF3QiO?usp=drive_link
-```
+### Desktop Görünümü
+![Desktop Görünümü](./1.png)
 
-## Start development server
+### Mobil Görünümü
+![Mobil Görünümü](./2.png)
 
-```sh
+## Kurulum
+
+```bash
+npm install
 npm run dev
-```
-
-## Lint the code
-
-```sh
-npm run lint
-```
-
-## Format the code
-
-```sh
-npm run format
 ```
